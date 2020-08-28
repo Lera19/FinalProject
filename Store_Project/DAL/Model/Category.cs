@@ -8,7 +8,7 @@ namespace DAL.Model
 {
     public class Category
     {
-        public Guid ID{ get; set; }
+        public Guid Id { get; set; }
         public string NameCategory { get; set; }
     }
 }

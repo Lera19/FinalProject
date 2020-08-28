@@ -9,13 +9,10 @@ namespace BusinessLayer.Model
     public class DeliveryModel
     {
         public DeliveryModel()
-        {
-            OrderModels = new List<OrderModel>();
-        }
-        public Guid ID { get; set; }
+        {}
+        public Guid Id { get; set; }
         public string Address { get; set; }
         public DateTime DateTime { get; set; }
-        public Guid OrderID { get; set; }
-        public List<OrderModel> OrderModels { get; set; }
+        public Guid OrderId { get; set; }
     }
 }

@@ -1,14 +1,15 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/Theme.css")
 </head>
-<body>
+<body class="page light-theme">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -25,6 +26,24 @@
                     <li>@Html.ActionLink("Информация", "About", "Home")</li>
                     <li>@Html.ActionLink("Связаться", "Contact", "Home")</li>
                 </ul>
+                <div class="registration">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <strong>@Html.Encode(User.Identity.Name)</strong>
+                        @Html.ActionLink("LogOut", "LogOut", "Account")
+      
+                    }
+                    else
+                    {
+                        @*@Html.ActionLink("Register", "Register", "Account")*@
+                        <a href="~/Account/Register" class="registr">Register</a>
+                        @*<span> | </span>*@
+                        @*@Html.ActionLink("LogIn", "LogIn", "Account")*@
+                        <a href="~/Account/LogIn" class="registr">LogIn</a>
+
+                    }
+                </div>
+                <button class="theme-button" type="button">Изменить тему</button>
             </div>
         </div>
     </div>
@@ -39,5 +58,6 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    @Scripts.Render("~/Scripts/JS/Theme.js")
 </body>
 </html>

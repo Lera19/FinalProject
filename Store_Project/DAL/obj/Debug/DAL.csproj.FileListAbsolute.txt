@@ -1,0 +1,16 @@
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\DAL.dll.config
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\DAL.dll
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\DAL.pdb
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\obj\Debug\DAL.dll
+C:\Users\Lenovo\source\repos\FinalProject\Store_Project\DAL\obj\Debug\DAL.pdb

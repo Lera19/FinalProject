@@ -9,13 +9,10 @@ namespace DAL.Model
     public class Delivery
     {
         public Delivery()
-        {
-            Order = new List<Order>();
-        }
-        public Guid ID { get; set; }
+        { }
+        public Guid Id { get; set; }
         public string Address { get; set; }
         public DateTime DateTime { get; set; }
-        public Guid OrderID { get; set; }
-        public List<Order> Order { get; set; }
+        public Guid OrderId { get; set; }
     }
 }

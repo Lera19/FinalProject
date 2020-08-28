@@ -13,7 +13,9 @@ namespace DAL.Utils
     {
         public StoreContext(): base("DefaultConnection")
         {
-            Database.CreateIfNotExists();
+             Database.SetInitializer(new InitializerClass());
+            
+
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Clothes> Clothes { get; set; }
